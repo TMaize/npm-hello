@@ -1,14 +1,15 @@
 {
   "name": "@tmaize/hello",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "hello world",
   "main": "./index.js",
   "bin": {
     "hello": "./index.js"
   },
   "scripts": {
-    "login": "npm --registry=https://registry.npmjs.org adduser",
-    "p": "npm --registry=https://registry.npmjs.org publish --access public"
+    "a": "npm --registry https://registry.npmjs.org adduser",
+    "p": "npm --registry https://registry.npmjs.org publish --access public",
+    "i": "npm --registry https://registry.npmjs.org install"
   },
   "keywords": [],
   "author": "TMaize",
