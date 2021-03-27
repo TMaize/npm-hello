@@ -1,0 +1,20 @@
+{
+  "name": "@tmaize/hello",
+  "version": "1.0.4",
+  "description": "hello world",
+  "main": "./index.js",
+  "bin": {
+    "hello": "./index.js"
+  },
+  "scripts": {
+    "login": "npm --registry=https://registry.npmjs.org adduser",
+    "p": "npm --registry=https://registry.npmjs.org publish --access public"
+  },
+  "keywords": [],
+  "author": "TMaize",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
+  }
+}
